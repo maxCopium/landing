@@ -12,9 +12,16 @@
   text-align: center;
   padding: 20px;
   border: 1px solid rgb(230,230,230);
-  margin-bottom: 15px
+  margin-bottom: 15px;
+  transition: 0.3s;
 }
 
 .card img {
   width: 150px;
+  border-radius: 25px;
+}
+
+.card:hover {
+  padding: 10px 10px;
+  background-color: rgb(217, 250, 218);
 }
