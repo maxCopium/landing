@@ -1,0 +1,17 @@
+.container {
+  padding: 16px 36px;
+  margin: auto;
+  width: 900px
+}
+
+.container h1 {
+  color: white
+}
+.container p {
+  color: rgb(199, 198, 198)
+}
+
+.container .cards {
+  display: flex;
+  flex-wrap: wrap;
+}
